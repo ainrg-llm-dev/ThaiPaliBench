@@ -1,6 +1,6 @@
 # 🪷 ThaiPaliBench Dataset
 
-🌐 **Project page:** https://ainrg-llm-dev.github.io/ThaiPaliBench/ · 📄 *Findings of EMNLP 2026*
+🌐 **Project page:** https://ainrg-llm-dev.github.io/ThaiPaliBench/ · 📄 [Paper (Findings of EMNLP 2026)](https://aclanthology.org/2026.findings-emnlp.1278/)
 
 ## Overview
 
@@ -139,12 +139,23 @@ If you use ThaiPaliBench, please cite:
 
 ```bibtex
 @inproceedings{phetsri-etal-2026-thaipalibench,
-    title     = "{T}hai{P}ali{B}ench: Benchmarking Large Language Models on {T}hai-Script {P}ali Understanding",
-    author    = "Phetsri, Nobpharat and Saeoueng, Anon and Kongyoung, Sarawoot and Viriyavit, Waranrach",
-    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2026",
-    year      = "2026",
-    address   = "Budapest, Hungary",
-    publisher = "Association for Computational Linguistics"
+    title = "{T}hai{P}ali{B}ench: Benchmarking Large Language Models on {T}hai-Script {P}ali Understanding",
+    author = "Phetsri, Nobpharat  and
+      Saeoueng, Anon  and
+      Kongyoung, Sarawoot  and
+      Viriyavit, Waranrach",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.1278/",
+    pages = "27072--27099",
+    ISBN = "979-8-89176-462-0"
 }
 ```
 
