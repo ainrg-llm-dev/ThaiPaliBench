@@ -1,8 +1,10 @@
 # 🪷 ThaiPaliBench Dataset
 
+🌐 **Project page:** https://ainrg-llm-dev.github.io/ThaiPaliBench/ · 📄 *Findings of EMNLP 2026*
+
 ## Overview
 
-**ThaiPaliBench** is a benchmark dataset designed for evaluating Thai–Pali bilingual. It enables systematic assessment of grammar knowledge, reading comprehension, and translation ability
+**ThaiPaliBench** is a benchmark dataset designed for evaluating large language models on Pali written in Thai script. It enables systematic assessment of grammatical knowledge, reading comprehension, natural language inference, and translation understanding.
 
 The dataset contains **4,000 instances**, evenly distributed across four task types:
 
@@ -25,7 +27,7 @@ The dataset is organized into nine proficiency levels (L1–L9), reflecting incr
 - 125 items per level for each task  
 - **Total per task: 1,000 items**
 
-This structured distribution enables evaluation of both foundational linguistic knowledge.
+This structured distribution enables evaluation of both foundational linguistic knowledge (L1–L3) and advanced comprehension across all nine levels.
 
 ## Dataset Statistics
 
@@ -120,3 +122,36 @@ ThaiPaliBench can be used for:
 ## Total Size
 
 **4,000 instances** — Balanced across task types and systematically distributed across proficiency levels.
+
+---
+
+## Data Source
+
+The dataset is constructed from past papers of the Royal Pali Examination (Parian Tham), administered by the Office of the Sanam Luang Pali Examination under the Sangha Supreme Council of Thailand. Scanned exam papers (1986–2025) were obtained from the public archive [สถิติข้อสอบบาลีสนามหลวง](https://www.pariyat.com/education/%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%B5-%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%B5%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2/%E0%B8%AA%E0%B8%96%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%B5%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87) on pariyat.com.
+
+## License
+
+Released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — non-commercial use only. See [LICENSE](LICENSE).
+
+## Citation
+
+If you use ThaiPaliBench, please cite:
+
+```bibtex
+@inproceedings{phetsri-etal-2026-thaipalibench,
+    title     = "{T}hai{P}ali{B}ench: Benchmarking Large Language Models on {T}hai-Script {P}ali Understanding",
+    author    = "Phetsri, Nobpharat and Saeoueng, Anon and Kongyoung, Sarawoot and Viriyavit, Waranrach",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2026",
+    year      = "2026",
+    address   = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics"
+}
+```
+
+## Acknowledgments
+
+We thank Kun Kerdthaisong and Chaianun Damrongrat.
+
+## Contact
+
+Sarawoot Kongyoung — sarawoot.kon@nectec.or.th
